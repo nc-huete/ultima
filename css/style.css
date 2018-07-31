@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700');
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	background-color: #fff;
+}
+
+.imgfondo {background-image: url(../img/app-img-2.jpg); background-size: cover; background-position: center;}
+
+.intro{padding: 40px 0;}
+.title h1{font-size: 60px;
+		font-weight:400;}
+.intro p{font-size: 20px;
+		color:#848992;}
+.title h1::after{content: "";
+width:100px;
+height: 8px;
+background-color: #00D3F3;
+display: block;
+border-radius: 0px 0px 4px 4px;}
+.title h2{font-size: 30px;
+		font-weight: 300;
+		text-align: center;}
+ .title h2::after{content: "";
+width:70px;
+height: 8px;
+background-color: #00D3F3;
+display: block;
+border-radius: 0px 0px 4px 4px;
+margin: 10px auto;
+}
+.fondoswirl {background-image: url(../img/app-cover-3.jpg); background-size:cover;}
+
+#table .table{border-collapse: separate;
+	border-color: #fff;}
+
+#table td,
+#table th{padding: 20px;}
+#table th{font-size: 18px;}
+#table th:first-child{
+	border-radius: 15px 0px 0px;
+	background-color:#FFFFFF;
+	border: 1px solid #ddd;}
+
+#table th:last-child{
+	border-radius: 0px 15px 0px 0px;
+	background-color:#FFFFFF;
+	border: 1px solid #ddd;}
+
+#table tr:last-child td:first-child{
+	border-radius: 0px 0px 0 15px;
+
+	border: 1px solid #ddd;}
+
+#table tr:last-child td:last-child{
+	border-radius: 0px 0px 15px 0px;
+	
+	border: 1px solid #ddd;}
+
+#table th:nth-child(2){
+	border-top: 1px solid #ddd;
+	}
+#table th:nth-child(1),
+#table td:nth-child(1){
+	background-color: #FFF;
+	}
+
+#table th:nth-child(2),
+#table td:nth-child(2){
+	background-color: #F6F7FB;
+	}
+#table th:nth-child(3),
+#table td:nth-child(3){
+	background-color: #E7E8EB;
+	}
+.fa-times{color:#969595; }
+.fa-check{color:#10C73C; }
+
+#counter i{ font-size: 90px;
+			color: #ABB1BD;}
+#counter h4{font-size: 40px;
+			color: #D6D9E2;}
+#counter p{color: #7A6D78;
+			font-size: 15px;
+			font-weight: 500px;}
+
+.imgfondobrush {background-image:url(../img/app-img-8.jpg); background-size: cover; background-position: center;}
+
+.espacio {padding: 60px 0;}
+
+
+#formregistro{background-color: #FFF;
+			padding: 20px 10px;
+			border: 0px;
+			border-top: 0;
+			box-shadow: 2px 4px 5px 0px #eee;}
